@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>EmotionAnalyzer</display-name>
+	<servlet>
+		<servlet-name>HomeBar</servlet-name>
+		<jsp-file>/WEB-INF/HomeBar.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HomeBar</servlet-name>
+		<url-pattern>/homebar</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>HomePage</servlet-name>
+		<jsp-file>/WEB-INF/HomePage.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HomePage</servlet-name>
+		<url-pattern>/homepage</url-pattern>
+	</servlet-mapping>
+</web-app>
